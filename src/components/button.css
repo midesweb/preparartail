@@ -1,0 +1,5 @@
+@layer components {
+
+}.button {
+  @apply block px-6 py-3 mb-3 text-lg tracking-wider text-center text-gray-800 uppercase bg-yellow-100 rounded hover:bg-white sm:mr-5 sm:text-xl;
+}

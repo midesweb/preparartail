@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/styles.css --output css/styles.css",
+    "build": "NODE_ENV=production postcss src/styles.css --output css/styles.css",
     "watch": "postcss src/styles.css --output css/styles.css --watch"
   },
   "keywords": [],
@@ -12,11 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.0.2",
+    "cssnano": "^4.1.10",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",
     "tailwindcss": "^2.0.1"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.2.1"
+    "@tailwindcss/forms": "^0.2.1",
+    "postcss-import": "^13.0.0"
   }
 }

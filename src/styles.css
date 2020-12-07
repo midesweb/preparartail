@@ -1,14 +1,6 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-p {
-  margin-bottom: 1rem;
-}
-
-@tailwind components;
-
-
-.button {
-  @apply block px-6 py-3 mb-3 text-lg tracking-wider text-center text-gray-800 uppercase bg-yellow-100 rounded-lg hover:bg-white sm:mr-5 sm:text-xl;
-}
-
-@tailwind utilities;
+@import './tailwind.css';
+@import './base/headings.css';
+@import './base/p.css';
+@import './components/button.css';

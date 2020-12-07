@@ -1,0 +1,9 @@
+@layer base {
+  h1 {
+    @apply font-light text-2xl mb-4;
+  }
+  h2 {
+    @apply font-light text-xl mb-3;
+  }
+}
+
